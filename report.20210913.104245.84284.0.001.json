@@ -1,0 +1,500 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210913.104245.84284.0.001.json",
+    "dumpEventTime": "2021-09-13T10:42:45Z",
+    "dumpEventTimeStamp": "1631540565070",
+    "processId": 84284,
+    "cwd": "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front\\node_modules\\react-scripts\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.8.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.8.1",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.8.1/node-v12.8.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.8.1/node-v12.8.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.8.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 64451437,
+        "nice": 0,
+        "sys": 67092156,
+        "idle": 1176440203,
+        "irq": 12298062
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 37601500,
+        "nice": 0,
+        "sys": 30577312,
+        "idle": 1239804656,
+        "irq": 1051375
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 84946765,
+        "nice": 0,
+        "sys": 44938671,
+        "idle": 1178097984,
+        "irq": 740312
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 44465984,
+        "nice": 0,
+        "sys": 19405937,
+        "idle": 1244111515,
+        "irq": 375296
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 71611984,
+        "nice": 0,
+        "sys": 32439687,
+        "idle": 1203931781,
+        "irq": 628187
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 32983390,
+        "nice": 0,
+        "sys": 18359437,
+        "idle": 1256640625,
+        "irq": 385843
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 61469390,
+        "nice": 0,
+        "sys": 28862750,
+        "idle": 1217651312,
+        "irq": 553281
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 42062843,
+        "nice": 0,
+        "sys": 22080968,
+        "idle": 1243839640,
+        "irq": 387750
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:7e:f7:5c",
+        "address": "2804:14c:115:9843:53f:9a57:75cd:ae30",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:7e:f7:5c",
+        "address": "2804:14c:115:9843:2109:b9fc:503f:926",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:7e:f7:5c",
+        "address": "fe80::53f:9a57:75cd:ae30",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:7e:f7:5c",
+        "address": "192.168.0.24",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LEGIONY530"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6d1b76de9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1b7b3dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1b7a388",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1c65a9b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d244c90e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d2434c5a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22c636c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22a4353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22a26ab",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22cbadd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22cd67e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22c4533",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22c2dc4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22e9557",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d215b787",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d201a190",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d215950a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d205e2ba",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d286bd9d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d27df032",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000003f4b19c19c",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 141385728,
+    "totalCommittedMemory": 141385728,
+    "usedMemory": 121289392,
+    "availableMemory": 2065736408,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 8388608,
+        "committedMemory": 8388608,
+        "capacity": 4189312,
+        "used": 3197040,
+        "available": 992272
+      },
+      "old_space": {
+        "memorySize": 99233792,
+        "committedMemory": 99233792,
+        "capacity": 86783304,
+        "used": 86557936,
+        "available": 225368
+      },
+      "code_space": {
+        "memorySize": 2785280,
+        "committedMemory": 2785280,
+        "capacity": 2049728,
+        "used": 2049728,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 4460544,
+        "committedMemory": 4460544,
+        "capacity": 3350080,
+        "used": 3350080,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 25632768,
+        "committedMemory": 25632768,
+        "capacity": 25552344,
+        "used": 25552344,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550304,
+        "used": 550304,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 4189312,
+        "used": 0,
+        "available": 4189312
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 30.109,
+    "kernelCpuSeconds": 8.5,
+    "cpuConsumptionPercent": 1.61612,
+    "maxRss": 254771200,
+    "pageFaults": {
+      "IORequired": 507358,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6797,
+      "writes": 578
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "ACLOCAL_PATH": "H:\\Program Files\\Git\\mingw64\\share\\aclocal;H:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\let_l\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "COLOR": "0",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LEGIONY530",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "configsetroot": "C:\\WINDOWS\\ConfigSetRoot",
+    "CONFIG_SITE": "H:/Program Files/Git/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "EXEPATH": "H:\\Program Files\\Git",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOME": "C:\\Users\\let_l",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\let_l",
+    "HOSTNAME": "LEGIONY530",
+    "INFOPATH": "H:\\Program Files\\Git\\usr\\local\\info;H:\\Program Files\\Git\\usr\\share\\info;H:\\Program Files\\Git\\usr\\info;H:\\Program Files\\Git\\share\\info",
+    "INIT_CWD": "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front",
+    "LANG": "pt_BR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\let_l\\AppData\\Local",
+    "LOGONSERVER": "\\\\LEGIONY530",
+    "MANPATH": "H:\\Program Files\\Git\\mingw64\\local\\man;H:\\Program Files\\Git\\mingw64\\share\\man;H:\\Program Files\\Git\\usr\\local\\man;H:\\Program Files\\Git\\usr\\share\\man;H:\\Program Files\\Git\\usr\\man;H:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "H:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "H:/Program Files/Git/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_PATH": "",
+    "npm_command": "start",
+    "npm_config_cache": "C:\\Users\\let_l\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\let_l\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_global_prefix": "C:\\Users\\let_l\\AppData\\Roaming\\npm",
+    "npm_config_init_module": "C:\\Users\\let_l\\.npm-init.js",
+    "npm_config_local_prefix": "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\let_l\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_noproxy": "",
+    "npm_config_prefix": "C:\\Users\\let_l\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\let_l\\.npmrc",
+    "npm_config_user_agent": "npm/7.23.0 node/v12.8.1 win32 x64 workspaces/false",
+    "npm_execpath": "C:\\Users\\let_l\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-scripts start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front\\package.json",
+    "npm_package_name": "pravaler-front",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OLDPWD": "H:/Users/let_l",
+    "OneDrive": "C:\\Users\\let_l\\OneDrive",
+    "ORIGINAL_PATH": "H:\\Program Files\\Git\\mingw64\\bin;H:\\Program Files\\Git\\usr\\bin;C:\\Users\\let_l\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\let_l\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.7;C:\\Users\\let_l\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.7\\Scripts;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;H:\\Program Files (x86)\\Yarn\\bin;C:\\Users\\let_l\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Users\\let_l\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\let_l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\let_l\\AppData\\Roaming\\npm;C:\\Users\\let_l\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\let_l\\AppData\\Local\\Yarn\\bin;H:\\Program Files\\PostgreSQL\\12\\bin;H:\\Program Files\\heroku\\bin;C:\\Program Files\\heroku\\bin",
+    "ORIGINAL_TEMP": "C:/Users/let_l/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/let_l/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "PATH": "H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\pravaler-front\\node_modules\\.bin;H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\Projeto\\node_modules\\.bin;H:\\Users\\let_l\\OneDrive\\Área de Trabalho\\node_modules\\.bin;H:\\Users\\let_l\\OneDrive\\node_modules\\.bin;H:\\Users\\let_l\\node_modules\\.bin;H:\\Users\\node_modules\\.bin;H:\\node_modules\\.bin;C:\\Users\\let_l\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\let_l\\bin;H:\\Program Files\\Git\\mingw64\\bin;H:\\Program Files\\Git\\usr\\local\\bin;H:\\Program Files\\Git\\usr\\bin;H:\\Program Files\\Git\\usr\\bin;H:\\Program Files\\Git\\mingw64\\bin;H:\\Program Files\\Git\\usr\\bin;C:\\Users\\let_l\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\let_l\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.7;C:\\Users\\let_l\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.7\\Scripts;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;H:\\Program Files (x86)\\Yarn\\bin;C:\\Users\\let_l\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Users\\let_l\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\let_l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\let_l\\AppData\\Roaming\\npm;C:\\Users\\let_l\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\let_l\\AppData\\Local\\Yarn\\bin;H:\\Program Files\\PostgreSQL\\12\\bin;H:\\Program Files\\heroku\\bin;C:\\Program Files\\heroku\\bin;H:\\Program Files\\Git\\usr\\bin\\vendor_perl;H:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "H:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;H:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "H:/Users/let_l/OneDrive/Área de Trabalho/Projeto/pravaler-front",
+    "SESSIONNAME": "Console",
+    "SHELL": "H:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "H:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\let_l\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\let_l\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\let_l\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LEGIONY530",
+    "USERDOMAIN_ROAMINGPROFILE": "LEGIONY530",
+    "USERNAME": "let_l",
+    "USERPROFILE": "C:\\Users\\let_l",
+    "WEBPACK_DEV_SERVER": "true",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node.exe"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
